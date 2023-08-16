@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- to make the website more responsive-->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Rhino Tech Waste Foundation</title>
+    <link rel="icon" href="Images\Rhino_tech_logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f6d6a5449c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/Rhino_tech_logo.png" width="100" height="100" alt="logo" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="test-box">
+            <h1>Rhino Tech Waste Foundation</h1>
+            <br />
+            This is the first solid waste management plant in Assam. It is located
+            in Dibrugarh district of Upper Assam.
+            <br />
+            <br />
+            <br />
+            <br />
+            <a href="about.html" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </section>
+
+    <!--- Course --->
+
+    <section class="utilization">
+        <h1>Effective methods of utilizing the Solid Waste generated from a city/ town</h1>
+        <p>Collection of the overall waste products of Dibrugarh district,<br>
+            Segregation of the wastes.<br>
+            Decomposition of the waste and extracting the gas from it.<br>
+            Methane gas will be used in fule cell for generation of electicity.<br>
+            Remaining wastes will be used for the production of Fertilizers.<br>
+            Plastic wastes are knows as pyrolysis.<br>
+            Production of diesel, petrol, neptha and cole.<br>
+            Main goal is to complete utilize the solid waste</p>
+        <div class="row">
+            <div class="utilization-col">
+                <h3>Bio-methanation Plant</h3>
+                <p>The purpose of the Bio-Methanation Plant is to utilize organic waste and produce biogas to be. used
+                    as fuel in gas based engines.<br>
+                    <img src="Images/bio_methanation_plant.png" width="250" height="180" alt="bio_methanation_plant" />
+                </p>
+            </div>
+            <div class="utilization-col">
+                <h3>Pyrolysis Plant</h3>
+                <p>The pyrolysis plant is a machine converts mainly wasate plastic/tyre to fuel oil. The raw material
+                    will be heated in a reactor.<br>
+                    <img src="Images/pyrolysis_plant.png" width="250" height="180" alt="pyrolysis_plant" />
+                </p>
+            </div>
+            <div class="utilization-col">
+                <h3>Recycling of glass and metal waste</h3>
+                <p>The broken pieces are crushed, sorted, cleaned, and prepared to be mixed with other raw materials
+                    like soda ash and sand. The raw materials are melted in a furnace and then shaped into moulds to
+                    make new bottles.<br>
+                    <img src="Images/glass_metal.png" width="250" height="180" alt="glass_metal" />
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--- site --->
+
+    <section class="site">
+        <h1>Our Site</h1>
+        <p>This is the first solid waste management plant in Assam. It is located at Lekai, Thakurthan
+            in Dibrugarh district of Upper Assam.</p>
+        <div class="row">
+            <div class="site-col">
+                <img src="images/plant.jpg" alt="site">
+                <div class="layer">
+                    <h3>DIBRUGARH</h3>
+                </div>
+            </div>
+    </section>>
+
+    <!--- Call to Action --->
+    <section class="cta">
+        <h1>Contact us for further information<br>Anywhere from the World</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!---footer--->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This is a solid waste management plant situated in Dibrugarh, Assam.<br>
+            Our main target is to use the solid
+            waste materials of Dibrugarh district and recycle it to use it further.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart-o"></i> by Wasikur Rahman Khan</p>
+    </section>
+
+
+    <!--- Javascript for Toggle menu --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
